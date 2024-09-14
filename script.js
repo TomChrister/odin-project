@@ -32,7 +32,7 @@ function lastLetter (dLetter) {
 console.log(lastLetter())
 
 
-/*let answer = parseInt(prompt('Enter the number you would like to increase'))
+let answer = parseInt(prompt('Enter the number you would like to increase'))
 
 for (let i = 1; i <= answer; i++){
     if (i % 3 === 0 && i % 5 === 0) {
@@ -44,7 +44,7 @@ for (let i = 1; i <= answer; i++){
     } else {
         console.log(i);
     }
-}*/
+}
 
 
 
