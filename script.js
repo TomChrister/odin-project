@@ -110,7 +110,6 @@ function changeColor () {
         btn.style.color = 'red'
     }
 }
-
 changeColor();
 
 
@@ -132,3 +131,27 @@ for (let i = 0; i < names.length; i++) {
 
 console.log(favoriteName);
 
+const redP = document.createElement('p');
+redP.innerHTML = 'Hey Im red!';
+redP.style.color = 'red';
+document.body.appendChild(redP);
+
+const blueH3 = document.createElement('h3');
+blueH3.innerHTML = 'Hey Im blue H3!';
+blueH3.style.color = 'blue';
+document.body.appendChild(blueH3);
+
+const div = document.createElement('div');
+div.style.border = '1px solid black';
+div.style.backgroundColor = 'pink';
+
+const h1 = document.createElement('h1');
+h1.textContent = 'Im a div'
+
+const p = document.createElement('p');
+p.innerHTML = 'ME TOO!'
+
+div.appendChild(h1);
+div.appendChild(p)
+
+document.body.appendChild(div);
