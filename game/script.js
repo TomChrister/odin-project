@@ -48,4 +48,5 @@ function playGame () {
         console.log(`It's a tie! Final score - Human: ${humanScore}, Computer: ${computerScore}`);
     }
 }
+
 playGame();
