@@ -1,0 +1,17 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 520px;
+    gap: 16px;
+}
+.new-div {
+    width: 16px;
+    height: 16px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.new-div:hover {
+    background-color: red;
+}
